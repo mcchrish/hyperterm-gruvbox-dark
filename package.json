@@ -1,0 +1,19 @@
+{
+  "name": "hyperterm-gruvbox-dark",
+  "version": "0.1.0",
+  "description": "HyperTerm Gruvbox theme",
+  "license": "MIT",
+  "repository": "mcchrish/hyperterm-gruvbox-dark",
+  "author": {
+    "name": "Michael Chris Lopez",
+    "email": "mcchrish@gmail.com"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hyperterm",
+    "hyperterm-theme",
+    "gruvbox"
+  ]
+}
