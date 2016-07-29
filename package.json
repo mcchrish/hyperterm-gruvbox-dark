@@ -15,5 +15,12 @@
     "hyperterm",
     "hyperterm-theme",
     "gruvbox"
-  ]
+  ],
+  "scripts": {
+    "lint": "standard ./**/*.js",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "standard": "^7.1.2"
+  }
 }

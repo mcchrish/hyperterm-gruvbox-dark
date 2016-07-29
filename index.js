@@ -45,7 +45,7 @@ exports.decorateConfig = config => {
       brightWhite
     ],
     css: `
-			${config.css || ''}
+      ${config.css || ''}
       .tab_tab {
         color: ${foregroundColor} !important;
         background-color: ${backgroundColor};
