@@ -8,15 +8,15 @@ const yellow = '#fabd2f'
 const blue = '#83a598'
 const magenta = '#d3869b'
 const cyan = '#8ec07c'
-const gray = '#282828'
-const brightBlack = '#ebdbb2'
-const brightRed = '#cc241d'
-const brightGreen = '#98971a'
-const brightYellow = '#d79921'
-const brightBlue = '#458588'
-const brightMagenta = '#b16286'
-const brightCyan = '#689d6a'
-const brightWhite = '#a89984'
+const white = '#fbf1c7'
+const lightBlack = '#ebdbb2'
+const lightRed = '#cc241d'
+const lightGreen = '#98971a'
+const lightYellow = '#d79921'
+const lightBlue = '#458588'
+const lightMagenta = '#b16286'
+const lightCyan = '#689d6a'
+const lightWhite = '#a89984'
 
 exports.decorateConfig = config => {
   return Object.assign({}, config, {
@@ -24,7 +24,7 @@ exports.decorateConfig = config => {
     foregroundColor,
     borderColor: '#665c54',
     cursorColor: '#fbf1c7',
-    colors: [
+    colors: {
       black,
       red,
       green,
@@ -32,18 +32,18 @@ exports.decorateConfig = config => {
       blue,
       magenta,
       cyan,
-      gray,
+      white,
 
-      // bright
-      brightBlack,
-      brightRed,
-      brightGreen,
-      brightYellow,
-      brightBlue,
-      brightMagenta,
-      brightCyan,
-      brightWhite
-    ],
+      // light
+      lightBlack,
+      lightRed,
+      lightGreen,
+      lightYellow,
+      lightBlue,
+      lightMagenta,
+      lightCyan,
+      lightWhite
+    },
     css: `
       ${config.css || ''}
       .tabs_list,
@@ -58,7 +58,7 @@ exports.decorateConfig = config => {
         background-color: #32302f;
       }
       .tab_active:before {
-        border-bottom-color: #98971a !important;
+        border-bottom: 2px solid ${lightGreen} !important;
       }
 		`
   })
