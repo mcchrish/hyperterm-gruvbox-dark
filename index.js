@@ -47,10 +47,11 @@ exports.decorateConfig = config => {
     css: `
       ${config.css || ''}
       .tabs_list,
-      .tab_tab {
+      .tab_tab,
+      .tabs_borderShim {
         color: ${foregroundColor} !important;
         border-color: transparent !important;
-      }
+      },
       .tab_tab {
         background-color: transparent;
       }
