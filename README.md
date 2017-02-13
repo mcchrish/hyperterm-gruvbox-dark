@@ -15,6 +15,8 @@ Add `hyperterm-gruvbox-dark` to the plugins list in your `~/.hyperterm.js` confi
 
 The [gruvbox](https://github.com/morhetz/gruvbox) vim theme.
 
+See also [hyperterm-gruvbox](https://github.com/rezonanc/hyperterm-gruvbox) for more complete Hyper gruvbox theme.
+
 
 ## License
 
