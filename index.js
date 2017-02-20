@@ -47,7 +47,8 @@ exports.decorateConfig = config => {
     css: `
       ${config.css || ''}
       .tabs_list,
-      .tab_tab {
+      .tab_tab,
+      .tabs_borderShim {
         color: ${foregroundColor} !important;
         border-color: transparent !important;
       }
@@ -56,8 +57,6 @@ exports.decorateConfig = config => {
       }
       .tab_active {
         background-color: #32302f;
-      }
-      .tab_active:before {
         border-bottom: 2px solid ${lightGreen} !important;
       }
 		`
