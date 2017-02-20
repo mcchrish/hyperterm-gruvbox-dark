@@ -1,6 +1,6 @@
 'use strict'
 const foregroundColor = '#ebdbb2'
-const backgroundColor = '#282828'
+const backgroundColor = '#262626'
 const black = '#928374'
 const red = '#fb4934'
 const green = '#b8bb26'
