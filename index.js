@@ -1,22 +1,22 @@
 'use strict'
 const foregroundColor = '#ebdbb2'
 const backgroundColor = '#282828'
-const black = '#928374'
-const red = '#fb4934'
-const green = '#b8bb26'
-const yellow = '#fabd2f'
-const blue = '#83a598'
-const magenta = '#d3869b'
-const cyan = '#8ec07c'
-const white = '#fbf1c7'
-const lightBlack = '#ebdbb2'
-const lightRed = '#cc241d'
-const lightGreen = '#98971a'
-const lightYellow = '#d79921'
-const lightBlue = '#458588'
-const lightMagenta = '#b16286'
-const lightCyan = '#689d6a'
-const lightWhite = '#a89984'
+const black = '#282828'
+const red = '#cc241d'
+const green = '#98971a'
+const yellow = '#d79921'
+const blue = '#458588'
+const magenta = '#b16286'
+const cyan = '#689d6a'
+const white = '#a89984'
+const lightBlack = '#928374'
+const lightRed = '#fb4934'
+const lightGreen = '#b8bb26'
+const lightYellow = '#fabd2f'
+const lightBlue = '#83a598'
+const lightMagenta = '#d3869b'
+const lightCyan = '#8ec07c'
+const lightWhite = '#ebdbb2'
 
 exports.decorateConfig = config => {
   return Object.assign({}, config, {
@@ -51,7 +51,7 @@ exports.decorateConfig = config => {
       .tabs_borderShim {
         color: ${foregroundColor} !important;
         border-color: transparent !important;
-      }
+      },
       .tab_tab {
         background-color: transparent;
       }
